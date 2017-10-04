@@ -1,0 +1,14 @@
+node_modules/
+production/build
+production/temp
+.vscode/
+.DS_Store
+*.log
+*.log.*
+*.pid
+*.swp
+*.idea
+routes/fakeData
+tmp/
+.slave
+logs/

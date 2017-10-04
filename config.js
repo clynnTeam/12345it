@@ -28,8 +28,8 @@ var config = {
   // cdn host，如 http://cnodejs.qiniudn.com
   site_static_host: '', // 静态文件存储域名
   // 社区的域名
-  // host: 'www.12345it.top',
-  host: 'localhost',
+  host: 'www.12345it.top',
+  // host: 'localhost',
   // 默认的Google tracker ID，自有站点请修改，申请地址：http://www.google.com/analytics/
   google_tracker_id: '',
   // 默认的cnzz tracker ID，自有站点请修改
@@ -49,8 +49,8 @@ var config = {
 
   // 程序运行的端口
 
-  port: 3000,
-  // port: 80,
+  // port: 3000,
+  port: 80,
 
   // 话题列表显示的话题数量
   list_topic_count: 20,
@@ -121,9 +121,13 @@ var config = {
 
   // 版块
   tabs: [
-    ['share', 'WEB前端'],
-    ['ask', 'nodeJs'],
-    ['job', '招聘'],
+    ['share', '前端'],
+    // ['ask', '问答'],
+    ['vue', 'Vue'],
+    ['react', 'React'],
+    ['weChat', '微信'],
+    ['node', 'nodeJs'],
+    ['job', '面试'],
   ],
 
   // 极光推送
